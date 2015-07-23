@@ -15,7 +15,7 @@ extern	disp_pos
 
 ; 导出函数
 global	disp_str
-global	disp_color_str1
+global	sleep
 global	disp_color_str
 global	out_byte
 global	in_byte
