@@ -392,6 +392,7 @@ void TestC()
 {
 	spin("TestC");
 	printf("this is c");
+	disp_color_str("c");
 }
 
 
@@ -441,8 +442,7 @@ void help()
 }
 void startAnimate(){
 	long int ii = 9999;
-		printf("System is loading...");
-	
+	printf("System is loading...");
 
 	while(ii-->0);ii=2999999;
 	printf("................");
