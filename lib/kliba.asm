@@ -15,7 +15,6 @@ extern	disp_pos
 
 ; 导出函数
 global	disp_str
-global	sleep
 global	disp_color_str
 global	out_byte
 global	in_byte
@@ -70,11 +69,6 @@ disp_str:
 ; ========================================================================
 ;		   void disp_color_str(char * info, int color);
 ; ========================================================================
-sleep:
-
-	nop
-
-
 disp_color_str:
 	push	ebp
 	mov	ebp, esp
@@ -109,11 +103,6 @@ disp_color_str:
 
 	pop	ebp
 	ret
-
-
-
-
-
 
 ; ========================================================================
 ;		   void out_byte(u16 port, u8 value);
